@@ -1,0 +1,98 @@
+@media (max-width:1300px) {
+    html{
+        font-size: 55.5%;
+    }
+     .navlist{
+        flex-direction: column;
+     }
+     .navbar{
+  flex-direction: column;
+  width: 100%;
+  transition: all 0.9s ease-out;
+  height: 35rem;
+    }
+    .burger{
+        display: block;
+      }
+      .h-nav{
+        height: 7.2rem;
+      }
+      .v-class{
+        opacity: 0;
+      }
+      .box-main{
+        flex-direction: column-reverse;
+        max-width: 100%;
+      }
+      .section{
+        flex-direction: column-reverse;
+      }
+     .buttons{text-align: center;}
+     .thumbnail img{
+        margin-top: 2.5rem;
+        max-width: 97%;
+     }
+     .text-small{
+        /* text-align: center; */
+     }
+     .footer-heading{
+        padding-top: 1rem;
+       font-size: 4rem;
+     }
+     .paras{
+        padding: 0;
+    }
+    .contact{
+        max-height: 73vh;
+    }
+}
+
+@media (max-width:1025px) {
+
+    .rightNav{
+        text-align: center;
+    }
+}
+
+@media (max-width:1837px) {
+
+      .firstSection{
+        height: 90vh;
+      }
+    
+}
+
+
+@media (max-width:900px){
+    html{
+        font-size: 50.5%;
+    }
+  
+}
+@media (max-width:700px){
+    html{
+        font-size: 40.5%;
+    }
+    .thumbnail img{
+        width: 90%;
+    }
+  .contact{
+    margin-top: 3rem;
+    max-height: 65vh;
+   
+  }
+  .logo img{
+    width: 150%;
+  }
+}
+
+
+@media (max-width:400px){
+    html{
+        font-size: 28.5%;
+    }
+    .thumbnail img{
+        width: 95%;
+    }
+  
+}
